@@ -1,0 +1,202 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Styles */
+
+  .site-header {
+    background-color: #A97E53;
+    padding: 1em;
+    text-align: center;
+  }
+  .site-header h1{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-right: auto; /* Pushes the logo to the left */
+}
+  
+  .logo {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5em; /* Space between the nav items */
+ }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #FDF5E6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav a:hover {
+    color: #483C32;
+}
+  
+  /* Main Styles */
+  
+  .site-main {
+    position: relative;
+    height: 25; 
+    background-image: url('RobielMenu.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;          
+    text-align: center;
+  }
+
+
+  form {
+    padding: 20px;          
+    border-radius: 10px;     
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(255, 255, 255, 0.353); 
+}
+
+form h1{
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #914F1E;
+}
+
+  form input,
+form textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+form input::placeholder,
+form textarea::placeholder{
+    color: #FEA000;
+    font-size: 15px;
+}
+form .send-btn{
+    display: inline-block;
+    padding: 11px 26px;
+    background: #A97E53;
+    color: white;
+    border: 2px black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .50s ease;
+    width: 100%;
+}
+form .send-btn:hover{
+    background: #A97E53;
+    color: white;
+    box-shadow: 0 0 20px;
+}
+  
+  
+  /* Footer Styles */
+  
+.site-footer {
+    background-color: #A97E53;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.social-links li a {
+    color: #FDF5E6;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: #9D3531;
+}
+
+  /* Responsive Design */
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .text-container h2 {
+        font-size: 1.8em;
+    }
+
+    .intro-section h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 1em;
+    }
+
+    .intro-section h1 {
+        font-size: 1.8em;
+    }
+
+    .text-container h2 {
+        font-size: 1.6em;
+    }
+}

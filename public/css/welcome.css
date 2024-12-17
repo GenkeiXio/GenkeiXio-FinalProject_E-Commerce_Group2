@@ -1,0 +1,255 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Styles */
+
+  .site-header {
+    background-color: #A97E53;
+    padding: 1em;
+    text-align: center;
+  }
+  .site-header h1{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+  
+  .logo {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5em; /* Space between the nav items */
+ }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #FDF5E6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .nav a:hover {
+    color: #483C32;
+}
+  
+  /* Main Styles */
+  
+  .site-main {
+    position: relative;
+    height: 25; /* Set the main section to take up the full height of the viewport */
+    background-image: url('RobielHome.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+  /* Hero Section Styles */
+  
+  .hero {
+    padding: 2em;
+    margin-right: auto;
+    position: relative; /* Add position relative to hero section */
+    z-index: 1; /* Add z-index to hero section to bring it above the background image */
+    color: #FAF3E0; /* Add white text color to hero section */
+  }
+  
+  .hero h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #FAF3E0; /* Add white text color to hero section */
+    /*border: 0px solid #F7F4E9; /* Add white border to features */
+    background-color: #333;
+    opacity: 0.9;
+    border-radius: 10px;
+  }
+  
+  .hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #444;
+  }
+  
+  .open-message{
+    padding: 20px;
+    border: 1px solid #fff; /* Add white border to features */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: #FAF3E0; /* Add white text color to hero section */
+    /*border: 0px solid #F7F4E9; /* Add white border to features */
+    background-color: #2E492B;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  /* Features Section Styles */
+  
+  .features {
+    padding: 2em;
+    background-color: transparent; /* Make the background transparent */
+    color: #FAF3E0; /* Add white text color to features section */
+  }
+  
+  .features h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #fff; /* Add white border to features */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: #FAF3E0; /* Add white text color to hero section */
+    /*border: 0px solid #F7F4E9; /* Add white border to features */
+    background-color: #2E492B;
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  
+  .feature i {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  
+  .feature p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: #FFFFFF; /* Add white text color to hero section */
+    /*border: 0px solid #F7F4E9; /* Add white border to features */
+    opacity: 0.8;
+    /*border-radius: 10px;*/
+  }
+  
+  /* Footer Styles */
+  
+.site-footer {
+    background-color: #A97E53;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.social-links li a {
+    color: #FDF5E6;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: #9D3531;
+}
+
+  /* Responsive Design */
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .text-container h2 {
+        font-size: 1.8em;
+    }
+
+    .intro-section h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 1em;
+    }
+
+    .intro-section h1 {
+        font-size: 1.8em;
+    }
+
+    .text-container h2 {
+        font-size: 1.6em;
+    }
+}
