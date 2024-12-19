@@ -11,21 +11,21 @@ class HomePageController extends Controller
         // Simulated "Best Sellers" data
         $bestSellers = [
             [
-                'name' => 'Egg Sandwich',
-                'price' => '$1.2',
-                'image' => 'css/img1.jpg',
+                'name' => 'Pancakes/Crepes with toppings',
+                'price' => '₱35.00',
+                'image' => 'css/PancakesCrepes with toppings.jpg',
                 'rating' => 4
             ],
             [
-                'name' => 'Tapsilog',
-                'price' => '$1.2',
-                'image' => 'css/img2.jpg',
+                'name' => 'Chicken Cordon Bleu',
+                'price' => '₱80.00',
+                'image' => 'css/Chicken Cordon Bleu.jpg',
                 'rating' => 4
             ],
             [
-                'name' => 'Pancit Bihon',
-                'price' => '$1.2',
-                'image' => 'css/img3.jpg',
+                'name' => 'Cold Caramel Coffee',
+                'price' => '₱50.00',
+                'image' => 'css/Cold Caramel Coffee.jpg',
                 'rating' => 4
             ]
         ];

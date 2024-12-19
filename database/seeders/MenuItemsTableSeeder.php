@@ -13,19 +13,19 @@ class MenuItemsTableSeeder extends Seeder
             [
                 'name' => 'Pancakes/Crepes with toppings',
                 'price' => 35.00,
-                'image' => 'css/img1.jpg',
+                'image' => 'css/PancakesCrepes with toppings',
                 'rating' => 4
             ],
             [
                 'name' => 'Egg Sandwiches',
                 'price' => 25.00,
-                'image' => 'css/img2.jpg',
+                'image' => 'css/img1.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Yummy Burgers',
                 'price' => 40.00,
-                'image' => 'css/img3.jpg',
+                'image' => 'css/Yummy Burgers.jpg',
                 'rating' => 4
             ],
             [

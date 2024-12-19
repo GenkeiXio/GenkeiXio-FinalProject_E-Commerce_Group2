@@ -13,31 +13,31 @@ class MenuController extends Controller
             [
                 'name' => 'Pancakes/Crepes with toppings',
                 'price' => '₱35.00',
-                'image' => 'css/img1.jpg',
+                'image' => 'css/PancakesCrepes with toppings.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Egg Sandwiches',
                 'price' => '₱25.00',
-                'image' => 'css/img2.jpg',
+                'image' => 'css/img1.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Yummy Burgers',
                 'price' => '₱40.00',
-                'image' => 'css/img3.jpg',
+                'image' => 'css/Yummy Burgers.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Ground Beef Cheesy Tacos',
                 'price' => '₱75.00',
-                'image' => 'css/img4.jpg',
+                'image' => 'css/Ground Beef Cheesy Tacos.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Small Pancit/Bihon Guisado',
                 'price' => '₱50.00',
-                'image' => 'css/img5.jpg',
+                'image' => 'css/img3.jpg',
                 'rating' => 4
             ],
         ];
@@ -46,31 +46,31 @@ class MenuController extends Controller
             [
                 'name' => 'Longganisa',
                 'price' => '₱60.00',
-                'image' => 'css/img1.jpg',
+                'image' => 'css/Longganisa.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Embutido',
                 'price' => '₱80.00',
-                'image' => 'css/img2.jpg',
+                'image' => 'css/Longganisa.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Chicken Cordon Bleu',
                 'price' => '₱80.00',
-                'image' => 'css/img1.jpg',
+                'image' => 'css/Chicken Cordon Bleu.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Burger Steaks',
                 'price' => '₱70.00',
-                'image' => 'css/img2.jpg',
+                'image' => 'css/Burger Steaks.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Chicken Tenders',
                 'price' => '₱60.00',
-                'image' => 'css/img3.jpg',
+                'image' => 'css/Chicken Tenders.jpg',
                 'rating' => 4
             ],
         ];
@@ -79,31 +79,31 @@ class MenuController extends Controller
             [
                 'name' => 'Hot Coffee',
                 'price' => '₱20.00',
-                'image' => 'css/img1.jpg',
+                'image' => 'css/Hot Coffee.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Wintermelon Tea with black pearl',
                 'price' => '₱50.00',
-                'image' => 'css/img2.jpg',
+                'image' => 'css/Wintermelon Tea with black pearl.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Cold Caramel Coffee',
                 'price' => '₱50.00',
-                'image' => 'css/img1.jpg',
+                'image' => 'css/Cold Caramel Coffee.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Fruit Smoothies',
                 'price' => '₱60.00',
-                'image' => 'css/img2.jpg',
+                'image' => 'css/Fruit Smoothies.jpg',
                 'rating' => 4
             ],
             [
                 'name' => 'Soda Drinks',
                 'price' => '₱20.00',
-                'image' => 'css/img1.jpg',
+                'image' => 'css/Soda Drinks.jpg',
                 'rating' => 4
             ],
         ];
